@@ -1,0 +1,56 @@
+.userview {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.userview button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.nonblocked {
+  background-color: #e9c5c5;
+  border: 1px solid #c5ccba;
+}
+
+.blocked {
+  background-color: #919191;
+  border: 1px solid #c5ccba;
+}
+
+.userview div {
+  margin: 10px;
+}
+
+.blocked:hover {
+  background-color: #c2c2c2;
+}
+
+.nonblocked:hover {
+  background-color: #8a6969;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+main {
+    position: absolute;
+    padding: 10px;
+    top: 70px;
+    left: 0px;
+    width: 100%;
+
+}
+
+.card-space {
+  margin: 20px;
+  box-shadow: 0px 0px 15px 1px rgba(128, 128, 128, 0.357);
+  border-radius: 10px;
+}
